@@ -12,6 +12,7 @@ services:
       - 8000:8000
     volumes:
       - ./app:/app
+      - ./data/web:/vol/web
     environment:
       - SECRET_KEY=ZzqH,RqB,g9sk*]qF~ZVThjzL/4p5tw3[L7{h@#vJ%r2bG5(e_</*p&Ua+p[<D6
       - DEBUG=1
